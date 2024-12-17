@@ -49,11 +49,11 @@ The **Fibonacci Spirals & Cubes Generator** is a Blender add-on that helps you g
 
 ## Gallery
 ### Examples of Generated Spirals and Cubes:
-![Fibonacci Spiral Example 1](Fibonacci_Material_Preview_Mode)
-![Fibonacci Spiral Example 2](Fibonacci_Wire_Edges)
-![Fibonacci Spiral Example 1](img_1)
-![Fibonacci Spiral Example 2](img_2)
-![Fibonacci Spiral Example 1](img_3)
+![Fibonacci Spiral Example 1](Fibonacci_Material_Preview_Mode.png)
+![Fibonacci Spiral Example 2](Fibonacci_Wire_Edges.png)
+![Fibonacci Spiral Example 1](img_1.png)
+![Fibonacci Spiral Example 2](img_2.png)
+![Fibonacci Spiral Example 1](img_3.png)
 
 ---
 
