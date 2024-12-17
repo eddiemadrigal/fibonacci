@@ -3,36 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fibonacci Spiral Generator Add-on Portfolio</title>
+    <title>Fibonacci Spiral & Cube Generator Documentation</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #2e2e2e;
-            color: #dcdcdc;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
         }
         header {
-            background: #1e1e1e;
-            color: #ffffff;
-            padding: 10px 20px;
+            background: #333;
+            color: #fff;
+            padding: 1.5rem 0;
             text-align: center;
         }
         main {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: #3e3e3e;
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            background: #fff;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1, h2 {
-            color: #eaeaea;
+        h1, h2, h3 {
+            color: #222;
         }
-        img {
-            max-width: 99.5%;
-            border-radius: 5px;
+        img, video {
+            max-width: 100%;
+            display: block;
+            margin: 1.5rem 0;
+        }
+        ul, ol {
+            margin: 1rem 0;
+            padding-left: 1.5rem;
+        }
+        .code-block {
+            background-color: #333;
+            color: #f9f9f9;
+            padding: 1rem;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-family: 'Courier New', Courier, monospace;
         }
         .video {
             width: 100%;
@@ -51,158 +64,102 @@
             font-size: 18px;
             border: 2px dashed #777;
         }
-        a {
-            color: #4da6ff;
-        }
-        a:hover {
-            color: #80c1ff;
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+            background: #333;
+            color: #fff;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Fibonacci Spiral Generator Add-on Portfolio</h1>
-    </header>
-    <main>
+
+<header>
+    <h1>Fibonacci Spiral & Cube Generator - Documentation</h1>
+</header>
+
+<main>
+    <section>
         <h2>Overview</h2>
-        <p>The <strong>Fibonacci Spiral Generator</strong> is a custom Blender add-on designed to dynamically generate Fibonacci spirals accompanied by cubes, offering both visual and mathematical appeal. This add-on highlights the power of Python scripting within Blender, enabling users to combine geometry, artistic design, and mathematical precision in their projects.</p>
+        <p>The <strong>Fibonacci Spiral & Cube Generator</strong> is a Blender add-on that allows you to effortlessly create Fibonacci-inspired spirals and cube patterns using the golden ratio. Designed for artists, animators, and creators who want to add mathematically precise beauty to their projects.</p>
+    </section>
 
-        <h2>Key Features</h2>
+    <section>
+        <h2>Features</h2>
         <ul>
-            <li><strong>Dynamic Fibonacci Spiral Creation:</strong> Generates Fibonacci spirals with customizable segment counts (1-20).</li>
-            <li><strong>User-Friendly Interface:</strong> Accessible through the Sidebar in the 3D Viewport under the Fibonacci tab.</li>
-            <li><strong>Custom Geometry Integration:</strong> Spirals are generated using Blender's curve objects, providing editable 3D curves.</li>
-            <li><strong>Automated Workflow:</strong> Clears the scene and resets the environment for seamless Fibonacci spiral creation.</li>
+            <li>Generate customizable Fibonacci spirals with up to 20 segments.</li>
+            <li>Dynamic toggles to hide or display spirals and cubes.</li>
+            <li>Accurate representation of the golden ratio in a user-friendly panel.</li>
+            <li>Perfect for procedural art, motion graphics, and architectural visuals.</li>
         </ul>
+    </section>
 
-        <div>
-            <img src="Fibonacci_Wire_Edges.png" alt="Fibonacci Spiral Generator Screenshot - Wire Edges">
+    <section>
+        <h2>Installation</h2>
+        <ol>
+            <li>Download the add-on ZIP file from Blender Market.</li>
+            <li>Open Blender and navigate to <strong>Edit &rarr; Preferences &rarr; Add-ons</strong>.</li>
+            <li>Click <strong>Install...</strong> and select the downloaded ZIP file.</li>
+            <li>Search for "Fibonacci Spiral & Cube Generator" and enable the add-on.</li>
+            <li>Save preferences to ensure the add-on remains active.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>How to Use</h2>
+        <ol>
+            <li>Open a new or existing Blender project.</li>
+            <li>Go to the <strong>3D Viewport</strong> and locate the add-on panel in the right-hand sidebar under the "Fibonacci" tab.</li>
+            <li>Set the number of Fibonacci segments (1-20).</li>
+            <li>Click the <strong>Generate Fibonacci Spiral</strong> button.</li>
+            <li>Use the checkboxes to hide or display cubes and spirals as needed.</li>
+        </ol>
+        <h3>Example Workflow</h3>
+        <p>Below is an example workflow to quickly create a Fibonacci spiral:</p>
+        <div class="code-block">
+            1. Set segments: 10<br>
+            2. Click "Generate Fibonacci Spiral"<br>
+            3. Use the "Hide Spiral" toggle to focus on cubes<br>
+            4. Export the design as needed for further edits
         </div>
+    </section>
 
-        <h2>Blender Version Compatibility</h2>
-        <p>The Fibonacci Spiral Generator is designed to leverage the latest Blender Python API features while maintaining compatibility across a wide range of versions:</p>
-        <ul>
-            <li><strong>Minimum Recommended Version:</strong> Blender 2.8</li>
-            <li><strong>Fully Tested Versions:</strong> Blender 2.8, 2.9, 3.x, and 4.3</li>
-            <li><strong>Current Target Version:</strong> Blender 4.3</li>
-        </ul>
+    <section>
+        <h2>Gallery</h2>
+        <p>Explore the beautiful and precise patterns you can create with the add-on:</p>
+        <img src="Fibonacci_Wire_Edges" alt="Fibonacci Spiral Example 1">
+        <img src="Fibonacci_Wire_Edges" alt="Fibonacci Spiral Example 2">
+        <img src="img_1.png" alt="Fibonacci Spiral Example 3">
+        <img src="img_2.png" alt="Fibonacci Spiral Example 4">
+        <img src="img_3.png" alt="Fibonacci Spiral Example 5">
+    </section>
 
+    <section>
+        <h2>Video Demonstration</h2>
+        <p>Watch how the Fibonacci Spirals & Cubes Generator works in Blender:</p>
         <div class="yt-video">
-            <iframe width="100%" height="420" src="https://www.youtube.com/watch?v=hSUZn-ZzkLY" title="Fibonacci Spiral and Cube Generator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="100%" height="420" src="https://www.youtube.com/embed/xcI8-pSnZeA?si=AiX5GuYj_ZLldNa4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
+    </section>
 
-        <h2>Why This Add-On?</h2>
-        <p>This add-on is perfect for:</p>
+    <section>
+        <h2>Compatibility</h2>
+        <p>This add-on is compatible with the following Blender versions:</p>
         <ul>
-            <li><strong>Artists:</strong> Incorporating Fibonacci aesthetics into 3D designs.</li>
-            <li><strong>Mathematicians:</strong> Demonstrating the Fibonacci sequence visually.</li>
-            <li><strong>Developers:</strong> Exploring Blender's Python scripting capabilities through an engaging, functional example.</li>
+            <li>Blender 4.3</li>
         </ul>
+    </section>
 
-        <div>
-            <img src="Fibonacci_Material_Preview_Mode.png" alt="Fibonacci Spiral Generator Screenshot - Preview Mode">
-        </div>        
+    <section>
+        <h2>Support</h2>
+        <p>If you encounter any issues or have questions about the add-on, feel free to reach out through Blender Market's messaging system. I am here to help you make the most of this tool.</p>
+    </section>
+</main>
 
-        <h2>Technical Highlights</h2>
-        <ul>
-            <li><strong>Efficient Geometry Management:</strong> Programmatic creation ensures scalability and precision.</li>
-            <li><strong>Customizable Parameters:</strong> Segment counts, cube configurations, and scaling are fully adjustable.</li>
-            <li><strong>API Features:</strong> Leverages Blender’s <code>bpy.ops</code> and <code>bpy.data</code> modules for geometry manipulation.</li>
-        </ul>
+<footer>
+    <p>&copy; 2024 Fibonacci Spirals & Cubes Generator. All Rights Reserved.</p>
+</footer>
 
-        <h2>Instructions for Installing, Running, and Uninstalling the Fibonacci Spiral Generator Add-on (Using a ZIP File)</h2>
-
-        <h3>Installing the Add-on</h3>
-        <ol>
-            <li><strong>Prepare the ZIP File:</strong>
-                <ul>
-                    <li>Ensure the add-on script (<code>fibonacci_spiral_generator.py</code>) is saved inside a ZIP file named <code>fibonacci_spiral_generator.zip</code>.</li>
-                </ul>
-            </li>
-            <li><strong>Open Blender:</strong>
-                <ul>
-                    <li>Launch Blender and go to <strong>Edit > Preferences</strong> (Windows/Linux) or <strong>Blender > Preferences</strong> (macOS).</li>
-                </ul>
-            </li>
-            <li><strong>Go to the Add-ons Tab:</strong>
-                <ul>
-                    <li>In the Preferences window, click on the Add-ons tab on the left.</li>
-                </ul>
-            </li>
-            <li><strong>Install the Add-on from the ZIP File:</strong>
-                <ul>
-                    <li>Click the <strong>Install...</strong> button in the top-right corner of the Add-ons tab.</li>
-                    <li>In the file browser that opens, locate and select the <code>fibonacci_spiral_generator.zip</code> file.</li>
-                    <li>Click <strong>Install Add-on</strong>.</li>
-                </ul>
-            </li>
-            <li><strong>Enable the Add-on:</strong>
-                <ul>
-                    <li>After installation, search for the add-on by typing <strong>Fibonacci</strong> in the search bar.</li>
-                    <li>Check the box next to <strong>Fibonacci Spiral Generator</strong> to enable it.</li>
-                </ul>
-            </li>
-        </ol>
-
-        <h3>Running the Add-on</h3>
-        <ol>
-            <li><strong>Access the Add-on in the 3D Viewport:</strong>
-                <ul>
-                    <li>Open the 3D Viewport and press the <strong>N</strong> key to open the Sidebar.</li>
-                    <li>Navigate to the <strong>Fibonacci</strong> tab in the Sidebar.</li>
-                </ul>
-            </li>
-            <li><strong>Use the Panel:</strong>
-                <ul>
-                    <li>In the <strong>Fibonacci Spiral Generator</strong> panel:</li>
-                    <li>Adjust the number of Fibonacci segments using the slider labeled <strong>1 - 20 Segments</strong>.</li>
-                    <li>Click the <strong>Generate Fibonacci Spirals & Cubes</strong> button to create the spiral in the scene.</li>
-                </ul>
-            </li>
-        </ol>
-
-        <h3>Uninstalling the Add-on</h3>
-        <ol>
-            <li><strong>Open Preferences:</strong>
-                <ul>
-                    <li>Go to <strong>Edit > Preferences</strong> (Windows/Linux) or <strong>Blender > Preferences</strong> (macOS).</li>
-                </ul>
-            </li>
-            <li><strong>Navigate to the Add-ons Tab:</strong>
-                <ul>
-                    <li>In the Preferences window, click on the Add-ons tab.</li>
-                </ul>
-            </li>
-            <li><strong>Search for the Add-on:</strong>
-                <ul>
-                    <li>Type <strong>Fibonacci</strong> in the search bar at the top.</li>
-                </ul>
-            </li>
-            <li><strong>Uninstall the Add-on:</strong>
-                <ul>
-                    <li>Click the small arrow next to the add-on name to expand its details.</li>
-                    <li>Click the <strong>Remove</strong> button to uninstall the add-on completely.</li>
-                </ul>
-            </li>
-        </ol>
-
-        <h3>Important Notes:</h3>
-        <ul>
-            <li><strong>ZIP File Structure:</strong> Ensure the ZIP file contains only the .py script file and no additional folders. Blender requires this structure for proper installation.</li>
-            <li><strong>Add-on Updates:</strong> If updating the add-on, uninstall the existing version first and then reinstall using the new ZIP file.</li>
-            <li><strong>Add-on Compatibility:</strong> The Fibonacci Spiral Generator is compatible with Blender versions 2.8 and above.</li>
-        </ul>
-
-        <h2>Future Enhancements</h2>
-        <p>Planned updates include:</p>
-        <ul>
-            <li>Support for additional shapes and patterns (e.g., golden spirals).</li>
-            <li>Real-time preview of the spiral during parameter adjustment.</li>
-            <li>Integration with animation tools for dynamic Fibonacci designs.</li>
-        </ul>
-
-        <h2>Conclusion</h2>
-        <p>The Fibonacci Spiral Generator is a testament to the versatility of Blender's Python API, bridging art and mathematics in an intuitive tool. Its seamless integration with Blender versions from 2.8 onward ensures accessibility for a wide audience, making it a valuable addition to any 3D artist’s toolkit.</p>
-    </main>
 </body>
 </html>
