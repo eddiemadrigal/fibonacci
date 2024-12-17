@@ -59,7 +59,7 @@ The **Fibonacci Spirals & Cubes Generator** is a Blender add-on that helps you g
 
 ## Video Demonstration
 Watch the Fibonacci Spirals & Cubes Generator in action:  
-[Video Placeholder](https://youtu.be/hSUZn-ZzkLY?si=eoh1gs2hjD60_sWJ)
+[Fibonacci Spiral & Cube Generator](https://youtu.be/hSUZn-ZzkLY?si=eoh1gs2hjD60_sWJ)
 
 ---
 
